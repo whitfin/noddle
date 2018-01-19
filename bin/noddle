@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+var cwd = process.cwd();
+var repl = require('repl').start({
+  prompt: '> ',
+});
+
+repl.context[process.argv[2] || deriveProjectName()] = require(cwd);
+
+function deriveProjectName() {
+  return cwd
+    .split('/')
+    .pop()
+    .replace(/-/g, '_')
+    .toLowerCase();
+}
+

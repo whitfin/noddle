@@ -1,0 +1,27 @@
+{
+  "name": "noddle",
+  "version": "1.0.0",
+  "description": "Simple loading of the current project workspace into a REPL",
+  "author": {
+    "name": "Isaac Whitfield",
+    "email": "iw@whitfin.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/whitfin/noddle.git"
+  },
+  "bugs": {
+    "email": "iw@whitfin.io",
+    "url": "http://github.com/whitfin/noddle/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "preferGlobal": true,
+  "keywords": [
+    "repl",
+    "shell"
+  ],
+  "bin": {
+    "noddle": "bin/noddle"
+  }
+}

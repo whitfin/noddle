@@ -16,7 +16,7 @@ $ npm install -g noddle
 Super easy to use via a command line:
 
 ```bash
-$ noddle <name>
+$ noddle [name]
 ```
 
 The "name" option is the variable name the current workspace should be loaded under. If one is not provided, it will load using the module name provided in the `package.json` (but with hyphens replaced with underscores).
